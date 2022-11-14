@@ -19,7 +19,7 @@ param resource_types default [
 ]
 
 # List of mandatory tags
-param mandatory_tags default ["projec_id","costcenter_id"]
+param mandatory_tags default ["project_id","costcenter_id", "environment"]
 
 # Get all Azure Resources with standard tags
 allAzureResourcesWithStandardTags =
