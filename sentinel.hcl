@@ -1,13 +1,9 @@
-"modules": {
-  "tfplan-functions": {
-    "path": "./common-functions/tfplan-functions/tfplan-functions.sentinel"
-  }
+module "tfplan-functions" {
+    source = "./common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
-"modules": {
-  "azuire-functions": {
-    "path": "./azure/azure-functions/azure-functions.sentinel"
-  }
+module "azuire-functions" {
+    source = "./azure/azure-functions/azure-functions.sentinel"
 }
 
 policy "enforce-mandatory-tags" {
