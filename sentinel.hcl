@@ -2,7 +2,7 @@ module "tfplan-functions" {
     source = "./common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
-module "azuire-functions" {
+module "azure-functions" {
     source = "./azure/azure-functions/azure-functions.sentinel"
 }
 
